@@ -28,3 +28,9 @@ public class ReadStringFromKeyboard {
     }
 }
 ```
+## Stack & Heap
+The stack is a portion of memory that is used for storing local variables, function arguments, and return addresses. It operates in a Last-In-First-Out (LIFO) manner, which means that the last item pushed onto the stack is the first item to be popped off. The stack is typically a fixed size and is allocated when a program is started.
+
+The heap, on the other hand, is a portion of memory that is used for dynamically allocated memory. This means that memory is allocated and deallocated as needed at runtime, and is not pre-allocated like the stack. The heap is typically a larger area of memory and is managed by the operating system or programming language runtime.
+
+In summary, the stack is used for static memory allocation, while the heap is used for dynamic memory allocation.

@@ -36,7 +36,7 @@ The heap, on the other hand, is a portion of memory that is used for dynamically
 In summary, the stack is used for static memory allocation, while the heap is used for dynamic memory allocation.
  
  ## order of precedence
- PEMDAS - Please Excuse My Dear Aunt Sally!  
+ **PEMDAS - Please Excuse My Dear Aunt Sally!** 
  P: Paranthesis  
  E: Exponent  
  M: Multiplication & Division (*, / , %) left to right   
@@ -47,4 +47,4 @@ In summary, the stack is used for static memory allocation, while the heap is us
  ## Expression Evaluation with different data types
 In Java, when an expression contains different data types, the Java compiler applies certain rules to determine the resulting data type of the expression. This is known as type conversion or type promotion.The type hierarchy in Java is as follows, from smallest to largest:  
 byte -> short -> int -> long -> float -> double  
-we can remember this with the pnemonic device  "Bees Shouldn't Intimidate Lazy Fat Dogs"  
+we can remember this with the pnemonic device  **"Bees Shouldn't Intimidate Lazy Fat Dogs"**  

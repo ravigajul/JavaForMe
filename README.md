@@ -34,3 +34,12 @@ The stack is a portion of memory that is used for storing local variables, funct
 The heap, on the other hand, is a portion of memory that is used for dynamically allocated memory. This means that memory is allocated and deallocated as needed at runtime, and is not pre-allocated like the stack. The heap is typically a larger area of memory and is managed by the operating system or programming language runtime.
 
 In summary, the stack is used for static memory allocation, while the heap is used for dynamic memory allocation.
+ 
+ ## order of precedence
+ PEMDAS - Please Excuse My Dear Aunt Sally!  
+ P: Paranthesis  
+ E: Exponent  
+ M: Multiplication  
+ D: Division  
+ A: Addition  
+ S: Subtraction  

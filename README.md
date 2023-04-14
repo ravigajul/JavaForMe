@@ -50,7 +50,7 @@ byte -> short -> int -> long -> float -> double
 we can remember this with the pnemonic device  **"Bees Shouldn't Intimidate Lazy Fat Dogs"**  
  
 ## BitWise Operators
- And & : When both are 1 result is 1  
+ **And & : When both are 1 result is 1**    
  |A|B|A&B|
  |-|-|--|
  |1|1|1|
@@ -58,7 +58,7 @@ we can remember this with the pnemonic device  **"Bees Shouldn't Intimidate Lazy
  |0|1|0|
  |0|0|0| 
  
-OR: When atleast one of them is 1 , the result is 1  
+**OR: When atleast one of them is 1 , the result is 1**  
  |A|B|A\|B|
  |-|-|--|
  |1|1|1|
@@ -66,10 +66,16 @@ OR: When atleast one of them is 1 , the result is 1
  |0|1|1|
  |0|0|0|  
  
- XOR ^ : When only one of them is 1, the result is 1  
+ **XOR ^ : When only one of them is 1, the result is 1**  
  |A|B|A^B|
  |-|-|--|
  |1|1|0|
  |1|0|1|
  |0|1|1|
  |0|0|0| 
+
+ **Left Shift X<<K**   
+ X left shift by k The resultant value is x * 2 power k  
+ 
+ **Right Shift X>>k**  
+ X right shift by k , The resultant value is x/2 power k  

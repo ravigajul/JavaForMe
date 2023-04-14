@@ -43,3 +43,8 @@ In summary, the stack is used for static memory allocation, while the heap is us
  D: Division  
  A: Addition  & Subtraction (+ , -) left to right  
  S: Subtraction  
+
+ ## Expression Evaluation with different data types
+In Java, when an expression contains different data types, the Java compiler applies certain rules to determine the resulting data type of the expression. This is known as type conversion or type promotion.The type hierarchy in Java is as follows, from smallest to largest:  
+byte -> short -> int -> long -> float -> double  
+we can remember this with the pnemonic device  "Bees Shouldn't Intimidate Lazy Fat Dogs"  

@@ -39,7 +39,7 @@ In summary, the stack is used for static memory allocation, while the heap is us
  PEMDAS - Please Excuse My Dear Aunt Sally!  
  P: Paranthesis  
  E: Exponent  
- M: Multiplication  
+ M: Multiplication & Division (*, / , %) left to right   
  D: Division  
- A: Addition  
+ A: Addition  & Subtraction (+ , -) left to right  
  S: Subtraction  

@@ -95,3 +95,18 @@ str.lastIndexOf(".")
 ## Break vs System.Exit(0)
  The break statement is used to exit a loop prematurely, while the System.exit(0) method is used to terminate the entire Java program. The choice between them depends on what you want to achieve in your program. If you need to terminate only the loop, then you can use the break statement. If you need to terminate the entire program, then you can use the System.exit(0) method.
  
+## 2D-Arrays
+ ```java
+ public class TwoDArrayExample {
+    public static void main(String[] args) {
+        int[][] myArray = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12} };
+
+        for (int i = 0; i < myArray.length; i++) {
+            for (int j = 0; j < myArray[i].length; j++) {
+                System.out.print(myArray[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```

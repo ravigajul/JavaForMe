@@ -111,7 +111,8 @@ str.lastIndexOf(".")
     }
 }
 ```
-## Passing objects as parameters to functions
+##Functions
+### Passing objects as parameters to functions
 When objects are passed as parameters in Java, the reference to the object is passed to the method, not the actual object itself. This means that any changes made to the object within the method will be reflected in the original object outside the method.  
 For example, consider the following code:  
  ```java
@@ -138,3 +139,13 @@ public class Main {
 }
 ```
 It's important to note that passing an object as a parameter does not create a copy of the object. Instead, the method operates on the original object itself.
+
+ ### Variable Arguments function
+ A variable arguments function in Java is a function that can accept a variable number of arguments of the same type. The syntax for defining a variable arguments function in Java involves using ellipsis (...) after the type of the argument in the method signature.
+
+For example, consider the following method signature:
+```java
+ public void myMethod(int... numbers) {
+    // method body
+}
+```

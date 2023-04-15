@@ -100,9 +100,9 @@ str.lastIndexOf(".")
  public class TwoDArrayExample {
     public static void main(String[] args) {
         int[][] myArray = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12} };
-        //here myArray is a outer array with 3 sub arrays each with 4 elements. so myArray.length is 3 rows
+        //here myArray is a outer array with 4 sub arrays each with 3 elements. so myArray.length is 4 rows
         for (int i = 0; i < myArray.length; i++) {
-            //here myArray[0] is an array with 4 elements.So  myArray[0].length is 4 columns                               
+            //here myArray[0] is an array with 3 elements.So  myArray[0].length is 3 columns                               
             for (int j = 0; j < myArray[i].length; j++) {
                 System.out.print(myArray[i][j] + " ");
             }

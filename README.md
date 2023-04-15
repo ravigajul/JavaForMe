@@ -111,5 +111,30 @@ str.lastIndexOf(".")
     }
 }
 ```
-## Functions
- When objects are passed as parameters to functions the object references are passed. Hence any updates made to the object in the called function, the changes are made to the actual object unlike other parameters like int where only values get copied.
+## Passing objects as parameters to functions
+When objects are passed as parameters in Java, the reference to the object is passed to the method, not the actual object itself. This means that any changes made to the object within the method will be reflected in the original object outside the method.  
+For example, consider the following code:  
+ ```java
+ public class MyClass {
+   int value;
+
+   public void setValue(int newValue) {
+      value = newValue;
+   }
+}
+
+public class Main {
+   public static void main(String[] args) {
+      MyClass obj = new MyClass();
+      obj.setValue(5);
+      System.out.println(obj.value); // Output: 5
+      modifyValue(obj);
+      System.out.println(obj.value); // Output: 10
+   }
+
+   public static void modifyValue(MyClass obj) {
+      obj.setValue(10);
+   }
+}
+```
+It's important to note that passing an object as a parameter does not create a copy of the object. Instead, the method operates on the original object itself.

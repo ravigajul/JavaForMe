@@ -88,6 +88,9 @@ str1.compareTo(str2) //returns <0 if str1 is lexicographically smaller than b, >
 str1.substring(0,1) //returns a substring of length 1 starting from index 0
 str1.substring(2) //returns the remaining substring from index 2
 str1.substring(2,5) //returns the substring from index 2 to 4
+Str.indexOf("word")
+str.indexOf(":")
+str.lastIndexOf(".")
 ````
 ## Break vs System.Exit(0)
  The break statement is used to exit a loop prematurely, while the System.exit(0) method is used to terminate the entire Java program. The choice between them depends on what you want to achieve in your program. If you need to terminate only the loop, then you can use the break statement. If you need to terminate the entire program, then you can use the System.exit(0) method.

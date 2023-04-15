@@ -33,6 +33,8 @@ public class StringManipulator {
 					+ B.substring(1));
 		}
 		
+		//print substring in the inclusive range from start to end-1
+		 System.out.println(A.substring(0,3)); 
 	}
 
 }

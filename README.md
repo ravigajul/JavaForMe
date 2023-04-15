@@ -111,3 +111,5 @@ str.lastIndexOf(".")
     }
 }
 ```
+## Functions
+ When objects are passed as parameters to functions the object references are passed. Hence any updates made to the object in the called function, the changes are made to the actual object unlike other parameters like int where only values get copied.

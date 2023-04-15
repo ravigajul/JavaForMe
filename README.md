@@ -112,7 +112,7 @@ str.lastIndexOf(".")
 }
 ```
 ##Functions
-### Passing objects as parameters to functions
+### Pass by reference
 When objects are passed as parameters in Java, the reference to the object is passed to the method, not the actual object itself. This means that any changes made to the object within the method will be reflected in the original object outside the method.  
 For example, consider the following code:  
  ```java
